@@ -4,7 +4,7 @@ import { FooterContainer, ContactInfo } from "./Footer.styles";
 const Footer = () => {
   return (
     <FooterContainer>
-      <ContactInfo>Contact: AleSto95654@stud.noroff.no</ContactInfo>
+      <ContactInfo>Contact: storum.aleksander@gmail.no</ContactInfo>
     </FooterContainer>
   );
 };

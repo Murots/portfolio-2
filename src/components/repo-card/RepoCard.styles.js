@@ -15,7 +15,7 @@ export const Card = styled.div`
     transform: scale(1.05);
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -26,16 +26,45 @@ export const ImageContainer = styled.div`
   width: 100%;
   height: 100%;
   border-radius: 10px 0 0 10px;
+  position: relative;
+  min-height: 300px;
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     border-radius: 10px 10px 0 0;
+  }
+
+  @media (max-width: 500px) {
+    min-height: 230px;
   }
 `;
 
 export const Image = styled.img`
-  width: 70%;
+  width: 80%;
   height: auto;
-  padding: 50px 0 0 25px;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+
+  @media (max-width: 1100px) {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+  }
+
+  @media (max-width: 950px) {
+    width: 65%;
+    left: 25px;
+  }
+
+  @media (max-width: 700px) {
+    width: 85%;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    left: 0px;
+  }
 `;
 
 export const Info = styled.div`
@@ -47,6 +76,7 @@ export const Info = styled.div`
 
 export const Title = styled.h2`
   font-size: 1.5em;
+  margin-top: 0px;
 `;
 
 export const Description = styled.p`
