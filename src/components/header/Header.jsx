@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Title>Aleksander Storum</Title>
-      <Subtitle>Hi! I'm a student of frontend development. Please feel free to explore my work.</Subtitle>
+      <Subtitle>"Hello! I am a newly graduated frontend developer. Please feel free to explore my work."</Subtitle>
     </HeaderContainer>
   );
 };

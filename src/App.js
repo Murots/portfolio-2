@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import RepoCard from "./components/repo-card/RepoCard";
@@ -21,6 +22,10 @@ const App = () => {
     <>
       <GlobalStyle />
       <Header />
+      <Helmet>
+        <title>A. Storum | Portfolio</title>
+        <meta name="description" content="Hello! I am a newly graduated frontend developer. Please feel free to explore my work." />
+      </Helmet>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "20px" }}>
         <RepoCard
           title="Holidaze"
