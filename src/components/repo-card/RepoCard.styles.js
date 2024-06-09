@@ -72,6 +72,7 @@ export const Info = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
 `;
 
 export const Title = styled.h2`
