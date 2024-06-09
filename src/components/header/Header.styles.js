@@ -6,8 +6,8 @@ export const HeaderContainer = styled.header`
   padding: 20px 40px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Aligns content to the top */
-  align-items: flex-start; /* Aligns content to the left */
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 30px;
 `;
 
@@ -23,5 +23,5 @@ export const Subtitle = styled.h1`
   font-weight: normal;
   text-align: center;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 80px;
 `;
